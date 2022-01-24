@@ -1,0 +1,12 @@
+.Bgimage{
+    background-image: url(../images/NiceBG.jpg) ;
+}
+
+.fontColor1{
+    color: rgb(90, 1, 255);
+}
+
+.background1{
+    background-color: black;
+    opacity: 70%;
+}
