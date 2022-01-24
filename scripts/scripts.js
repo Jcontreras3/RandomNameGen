@@ -5,3 +5,9 @@ let Btn2 = document.getElementById('Btn2');
 let GroupNumTxt = document.getElementById('GroupNumTxt');
 let Btn3 = document.getElementById('Btn3');
 let Btn4 = document.getElementById('Btn4');
+let CardTxt = document.getElementById('CardTxt');
+
+Btn1.addEventListener('click', function(){
+    
+    // CardTxt.textContent = NameTxt.value
+})
