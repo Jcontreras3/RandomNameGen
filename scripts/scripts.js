@@ -6,8 +6,34 @@ let GroupNumTxt = document.getElementById('GroupNumTxt');
 let Btn3 = document.getElementById('Btn3');
 let Btn4 = document.getElementById('Btn4');
 let CardTxt = document.getElementById('CardTxt');
+let AddCard = document.getElementById('AddCard');
 
-Btn1.addEventListener('click', function(){
-    
-    // CardTxt.textContent = NameTxt.value
-})
+function GetNames(name){
+    let Card = document.createElement("p");
+    Card.className = "card-text fontColor2";
+    Card.textContent = name;
+    CardTxt.appendChild(Card);
+    Card.addEventListener('click', function(){
+        Card.remove();
+    })
+}
+
+Btn1.addEventListener('click', () => {
+     GetNames(NameTxt.value);
+});
+
+function RemoveNames(){
+};
+
+ Btn2.addEventListener('click', () =>{
+
+ });
+
+ function AddGroup(Card){
+     Card.className = "card Bgblack w-75";
+     Card.appendChild(AddCard);
+ }
+
+ Btn3.addEventListener('click', () =>{
+    AddGroup(AddCard.value);
+ });
