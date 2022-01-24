@@ -26,13 +26,9 @@ function RemoveNames(){
 };
 
  Btn2.addEventListener('click', () =>{
-
+    
  });
 
- function AddGroup(Card){
-     Card.className = "card Bgblack w-75";
-     Card.appendChild(AddCard);
- }
 
  Btn3.addEventListener('click', () =>{
     AddGroup(AddCard.value);
