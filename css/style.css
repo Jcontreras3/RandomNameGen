@@ -2,6 +2,10 @@
     background-image: url(../images/NiceBG.jpg) ;
 }
 
+.Bgblack{
+    background-color: black;
+}
+
 .fontColor1{
     color: rgb(90, 1, 255);
 }
