@@ -1,3 +1,5 @@
+import {SaveToLocalStorage, GetStorage, RemoveFromStorage} from "./localStorage.js";
+
 let NameTxt = document.getElementById('NameTxt');
 let Btn1 = document.getElementById('Btn1');
 let DeleteTxt = document.getElementById('DeleteTxt');
